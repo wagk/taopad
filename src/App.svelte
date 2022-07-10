@@ -5,13 +5,16 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>{name}</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-    <ShipContainer/>
+    <hline/>
+    <div id="containerlists">
+        <ShipContainer/>
+    </div>
 </main>
 
 <style>
-	main {
+	#containerlists {
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
